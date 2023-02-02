@@ -27,13 +27,13 @@ body {
 #display-image {
   width: 100%;
   height: 500px;
-  background-image: url("/pictures/cat-meme.jpg");
+  /* background-image: url("/pictures/cat-meme.jpg"); */
   background-position: center;
   background-size: 100% auto;
   background-repeat: no-repeat;
 }
 .app {
-  border: 2px solid rgba(215, 215, 215, 0.412);
+  border: 2px solid #31347e;
   border-radius: 10px;
   padding: 50px;
   padding-top: 10px;
@@ -70,12 +70,21 @@ textarea {
 .text-box {
   background-color: #24282b;
   color: white;
-  border-radius: 10px;
+}
+.box-1 {
+  border-radius: 10px 10px 0 0;
+}
+.box-2 {
+  border-radius: 0 0 10px 10px;
 }
 #meme-list {
+  margin-top: 10px;
   width: 100%;
   font-size: large;
   font-family: sans-serif;
   color: #000000;
   border-radius: 2px;
+}
+#image-input {
+  margin-top: 10px;
 }
